@@ -24,8 +24,10 @@ public class PasswordGenerator{
     }
     public static void main(String[] args){
         PasswordGenerator password1 = new PasswordGenerator(3,"ak");
-        PasswordGenerator password2 = new PasswordGenerator(3);
         System.out.println(password1.pwGen());
+        System.out.println(password1.pwCount());
+        PasswordGenerator password2 = new PasswordGenerator(3);
         System.out.println(password2.pwGen());
+        System.out.println(password2.pwCount());
     }
 }
